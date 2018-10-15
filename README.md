@@ -1,12 +1,12 @@
 # RssReader (lab02)
 [![Python](https://img.shields.io/badge/python-3.6.5-green.svg)](https://www.python.org/)
 [![Django](https://img.shields.io/badge/django-2.1.1-orange.svg)](https://www.djangoproject.com/)
-[![PythonAnywhere](https://img.shields.io/badge/python-anywhere-blue.svg)]()
 
-Вторая лабораторная работа по учебному курсу "Языки и методы программирования"
+Лабораторная работа №1 по учебному курсу "Языки и методы программирования"
 
-Данное приложение представляет собой веб-сервис для чтения rss-лент.
-Пользователи имеют возможность добавлять каналы, устанавливать категории и производить поиск по ключевым словам.
+Данное приложение представляет собой веб-сервис, выполняющий функции менеджера задач.
+Пользователи имеют возможность создавать задачи, сортировать их в соответствии с категорией, удалять.
+
 
 ## Начало работы
 
@@ -25,12 +25,12 @@ pip install Django
 Копируем репозиторий
 
 ```
-git clone https://github.com/Old1906/RssReader-lab02-
+git clone https://github.com/DarinaKuzmina/LabWork-1
 ```
 Переходим в корень
 
 ```
-cd RssReader-lab01-/RssReader
+cd LabWork-1
 ```
 
 И запускаем сервер
@@ -42,7 +42,7 @@ python3 manage.py runserver
 Теперь можно перейти по ссылке и начинать работу
 
 ```
-http://127.0.0.1:8000/rss
+http://127.0.0.1:8000/
 ```
 
 ## Использовано в работе
@@ -52,7 +52,7 @@ http://127.0.0.1:8000/rss
 
 ## Автор
 
-* **Дудник Олег** - ПМ-1701 - [Old1906](https://github.com/Old1906)
+* **Кузьмина Дарина** - ПМ-1701 - [DarinaKuzmina](https://github.com/DarinaKuzmina)
 
 ## Лицензия
 
