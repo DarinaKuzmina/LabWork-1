@@ -4,7 +4,7 @@ from . import views
 
 app_name = 'nap'
 urlpatterns = [
-	path('', views.logPage, name='logPage'),
+    path('', views.logPage, name='logPage'),
     path('registration/', views.registrationPage, name='registrationPage'),
     path('registrationQuery/', views.registrationQuery, name='registrationQuery'),
     path('logPage/', views.logPage, name='logPage'),
@@ -17,4 +17,3 @@ urlpatterns = [
 
 ]
 
-#    path('chto/', views.chto, name='chto'),
