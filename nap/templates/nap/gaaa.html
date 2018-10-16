@@ -63,8 +63,8 @@
 										<h2 class="uk-modal-title">{{ task.title }}</h2>
 										<p>{{ task.text }}</p>
 										<p class="uk-text-right">
-											<form action="{% url 'nap:sendEmail' %}" method="post">{% csrf_token %}
-												<button class="uk-button uk-button-primary" >Напомнить</button>
+											<form class="uk-flex uk-flex-right" action="{% url 'nap:sendEmail' %}" method="post">{% csrf_token %}
+												<button class="uk-button uk-button-primary " onclick="UIkit.notification({message: '{{ task.title }}', pos: 'bottom-right', status: 'danger'}) ">Напомнить</button>
 												<input type="hidden" value="{{ task.id }}" name="taskId">
 											</form>
 										</p>
