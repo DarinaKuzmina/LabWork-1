@@ -25,7 +25,7 @@ SECRET_KEY = 'v56b7%rfl1ev)(yo5s%0wnr2*k1o+1x^r8^j_+&(m*0-v#4_6g'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['darina.pythonanywhere.com']
 
 
 # Application definition
