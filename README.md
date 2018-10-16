@@ -1,7 +1,9 @@
 # LabWork-1 
 [![Python](https://img.shields.io/badge/python-3.6.5-green.svg)](https://www.python.org/)
 [![Django](https://img.shields.io/badge/django-2.1.1-orange.svg)](https://www.djangoproject.com/)
-[![pythonanywhere](http://darina.pythonanywhere.com/)
+
+
+pythonanywhere: http://darina.pythonanywhere.com/
 
 Лабораторная работа №1 по учебному курсу "Языки и методы программирования"
 
