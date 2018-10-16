@@ -1,1 +1,2 @@
-Пр3ивет! <hr> <img src="https://kidshealth.org/EN/images/illustrations/ASDestab_433x259_enIL.png"> Как ты? <br> Спорим, что плохо, потому что ты забыл про задачу? <br> Вот она: <br><br> {{ task.title }} <br><br> {{ task.text }} <br><br> Хороего дня! :Р
+{% load static %}
+Пр2ивет! {{  full_path }} <hr> <img src="{{ full_path }}{% static 'img/im5.jpg' %}"> Как ты? <br> Спорим, что плохо, потому что ты забыл про задачу? <br> Вот она: <br><br> {{ task.title }} <br><br> {{ task.text }} <br><br> Хороего дня! :Р
