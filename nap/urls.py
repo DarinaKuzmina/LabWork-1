@@ -4,7 +4,7 @@ from . import views
 
 app_name = 'nap'
 urlpatterns = [
-    path('', views.logPage, name='logPage'),
+	path('', views.logPage, name='logPage'),
     path('registration/', views.registrationPage, name='registrationPage'),
     path('registrationQuery/', views.registrationQuery, name='registrationQuery'),
     path('logPage/', views.logPage, name='logPage'),
@@ -14,6 +14,8 @@ urlpatterns = [
     path('logout/', views.logoutQuery, name='logout'),
     path('gaaa/', views.gaaa, name='gaaa'),
     path('deletee/<int:task_id>', views.deletee, name='deletee'),
+    path('sendEmail', views.sendEmail, name='sendEmail'),
 
 ]
 
+#    path('chto/', views.chto, name='chto'),
